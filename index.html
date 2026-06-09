@@ -1,0 +1,712 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LA-PAZ Restaurant | Kabete, Nairobi</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <meta name="description" content="LA-PAZ Restaurant – Lower Kabete's top Nyama Choma, grills and on-site car wash in Nairobi. Call 0720 445347."/>
+  <meta property="og:title" content="LA-PAZ Restaurant | Kabete, Nairobi"/>
+  <meta property="og:description" content="Authentic Nyama Choma, outdoor dining and convenient car wash service at LA-PAZ Restaurant in Lower Kabete. Reserve on WhatsApp or order on Glovo and Bolt Food."/>
+  <meta property="og:type" content="restaurant"/>
+  <meta property="og:image" content="nyamachoma.jpeg"/>
+  <meta property="og:image:alt" content="Nyama Choma platter from LA-PAZ Restaurant"/>
+  <meta property="og:site_name" content="LA-PAZ Restaurant"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "LA-PAZ Restaurant",
+    "image": ["nyamachoma.jpeg"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "118 Lower Kabete Rd",
+      "addressLocality": "Kabete Gardens",
+      "addressRegion": "Nairobi",
+      "addressCountry": "KE"
+    },
+    "telephone": "+254720445347",
+    "priceRange": "Ksh 1–2,000",
+    "servesCuisine": ["Kenyan","African","Grill","Barbecue"],
+    "openingHours": ["Mo-Su 11:00-20:00"],
+    "url": "https://maps.google.com/?q=LA-PAZ+Restaurant+Kabete+Nairobi",
+    "sameAs": ["https://maps.google.com/?q=LA-PAZ+Restaurant+Kabete+Nairobi"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ─── PRELOADER ─────────────────────────────────────── -->
+  <div id="preloader">
+    <div class="pre-logo">LA-PAZ</div>
+    <div class="pre-bar"><span></span></div>
+  </div>
+
+  <!-- ─── NAV ───────────────────────────────────────────── -->
+  <header id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#home">LA-PAZ</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#features">Experience</a>
+        <a href="#services">Car Wash</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="tel:+254720445347">
+        <i class="fa-solid fa-phone"></i> Reserve · 0720 445347
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ─── HERO ───────────────────────────────────────────── -->
+  <section id="home" class="hero">
+    <div class="hero-bg" style="background-image:url('Ambience.jpeg')"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline reveal-up">Kabete Gardens, Nairobi</p>
+      <h1 class="hero-title reveal-up delay-1">LA-PAZ<br/><em>Restaurant</em></h1>
+      <div class="hero-rating reveal-up delay-2">
+        <span class="stars">★★★★☆</span>
+        <span class="rating-num">4.0</span>
+        <span class="rating-sep">·</span>
+        <span class="rating-count">842 reviews</span>
+        <span class="rating-sep">·</span>
+        <span class="price-range">Ksh 1–2,000</span>
+      </div>
+      <div class="hero-actions reveal-up delay-3">
+        <a href="#menu" class="btn btn-primary">
+          <i class="fa-solid fa-utensils"></i> Explore Menu
+        </a>
+        <a href="tel:+254720445347" class="btn btn-outline">
+          <i class="fa-solid fa-phone"></i> Call to Book
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── STATS BAR ─────────────────────────────────────── -->
+  <section class="stats-bar">
+    <div class="stat">
+      <span class="stat-num" data-target="842">842</span>
+      <span class="stat-label">Google Reviews</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num" data-target="4">4</span>
+      <span class="stat-label">Star Rating</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num" data-target="2000">2000</span>
+      <span class="stat-label">Max Budget (Ksh)</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num" data-target="142">142</span>
+      <span class="stat-label">Menu Reports</span>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────────────── -->
+  <section id="about" class="about section">
+    <div class="container about-grid">
+      <div class="about-image-wrap">
+        <div class="about-img-main" style="background-image:url('bufee.jpeg')"></div>
+        <div class="about-badge">
+          <i class="fa-solid fa-award about-badge-icon"></i>
+          <strong>Kabete Gardens</strong>
+          <span>Nairobi</span>
+        </div>
+      </div>
+      <div class="about-copy">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">Where Every Meal<br/><em>Tells a Story</em></h2>
+        <p>Nestled in Kabete Gardens along Lower Kabete Road, LA-PAZ is Nairobi's go-to destination for authentic Kenyan grills, refreshing local beverages, and a dining atmosphere that feels like home — only better.</p>
+        <p>From sizzling <strong>Nyama Choma</strong> paired with hand-rolled ugali and fresh kachumbari, to crispy <strong>Chicken Wings</strong> and stone-baked pizzas, every plate is crafted with pride and cooked to order.</p>
+        <ul class="about-highlights">
+          <li>
+            <span class="hl-icon"><i class="fa-solid fa-circle-check"></i></span>
+            Outdoor seating under the open sky
+          </li>
+          <li>
+            <span class="hl-icon"><i class="fa-solid fa-circle-check"></i></span>
+            Private dining room for events
+          </li>
+          <li>
+            <span class="hl-icon"><i class="fa-solid fa-circle-check"></i></span>
+            Big screen sport viewing
+          </li>
+          <li>
+            <span class="hl-icon"><i class="fa-solid fa-circle-check"></i></span>
+            On-site car wash while you dine
+          </li>
+          <li>
+            <span class="hl-icon"><i class="fa-solid fa-circle-check"></i></span>
+            Family &amp; group-friendly
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">
+          <i class="fa-solid fa-map-location-dot"></i> Find Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── MENU ──────────────────────────────────────────── -->
+  <section id="menu" class="menu-section section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Our Favourites</p>
+        <h2 class="section-title">Menu <em>Highlights</em></h2>
+        <p class="section-sub">Handpicked dishes loved by our guests. All made fresh daily.</p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-tab="all">All</button>
+        <button class="tab-btn" data-tab="grills">Grills</button>
+        <button class="tab-btn" data-tab="mains">Mains</button>
+        <button class="tab-btn" data-tab="drinks">Drinks</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+
+        <div class="menu-card" data-cat="grills">
+          <div class="card-img" style="background-image:url('nyamachoma.jpeg')"></div>
+          <div class="card-body">
+            <span class="card-tag">Grills · Signature</span>
+            <h3>Nyama Choma, Ugali &amp; Kachumbari</h3>
+            <p>Slow-roasted Kenyan beef served with hand-rolled ugali and zesty tomato kachumbari. The house classic.</p>
+            <div class="card-footer">
+              <span class="card-price">Ksh 650+</span>
+              <button class="card-order-btn" onclick="openModal('nyama')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card featured" data-cat="grills">
+          <div class="card-badge">Chef's Pick</div>
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80')"></div>
+          <div class="card-body">
+            <span class="card-tag">Grills · Popular</span>
+            <h3>Ugali Mbuzi Choma &amp; Kachumbari</h3>
+            <p>Tender goat choma, slow-fired over charcoal, plated with soft ugali and fresh kachumbari.</p>
+            <div class="card-footer">
+              <span class="card-price">Ksh 800+</span>
+              <button class="card-order-btn" onclick="openModal('mbuzi')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="mains">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1606755456206-b25206cde27e?w=600&q=80')"></div>
+          <div class="card-body">
+            <span class="card-tag">Mains · Crowd Favourite</span>
+            <h3>Chicken Wings with Fries</h3>
+            <p>Crispy marinated chicken wings served with golden seasoned fries and house dipping sauce.</p>
+            <div class="card-footer">
+              <span class="card-price">Ksh 550+</span>
+              <button class="card-order-btn" onclick="openModal('wings')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="mains">
+          <div class="card-img" style="background-image:url('Pizza Chicken Tikka.jpeg')"></div>
+          <div class="card-body">
+            <span class="card-tag">Mains · Italian Twist</span>
+            <h3>Pizza Chicken Tikka</h3>
+            <p>Stone-baked pizza loaded with spiced chicken tikka, peppers, and rich tomato base.</p>
+            <div class="card-footer">
+              <span class="card-price">Ksh 700+</span>
+              <button class="card-order-btn" onclick="openModal('pizza')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="mains">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&q=80')"></div>
+          <div class="card-body">
+            <span class="card-tag">Mains · Quick Bite</span>
+            <h3>French Fries with Fried Meat</h3>
+            <p>Crispy golden fries paired with seasoned fried meat strips — the perfect casual meal.</p>
+            <div class="card-footer">
+              <span class="card-price">Ksh 400+</span>
+              <button class="card-order-btn" onclick="openModal('fries')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="drinks">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80')"></div>
+          <div class="card-body">
+            <span class="card-tag">Drinks · Hot</span>
+            <h3>African Tea &amp; Coffee</h3>
+            <p>Rich, milky African chai spiced just right. Or enjoy our freshly brewed barista coffee, your way.</p>
+            <div class="card-footer">
+              <span class="card-price">Ksh 80+</span>
+              <button class="card-order-btn" onclick="openModal('tea')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="drinks">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600&q=80')"></div>
+          <div class="card-body">
+            <span class="card-tag">Drinks · Fresh &amp; Cold</span>
+            <h3>Sugarcane Juice with Ginger &amp; Lemon</h3>
+            <p>Freshly pressed sugarcane juice blended with zingy ginger and lemon for the ultimate refresher.</p>
+            <div class="card-footer">
+              <span class="card-price">Ksh 120+</span>
+              <button class="card-order-btn" onclick="openModal('sugarcane')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="drinks">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&q=80')"></div>
+          <div class="card-body">
+            <span class="card-tag">Drinks · Tropical</span>
+            <h3>Passion Fruit Juice</h3>
+            <p>Locally sourced passion fruit blended to a tangy, sweet juice. Pairs perfectly with Nyama Choma.</p>
+            <div class="card-footer">
+              <span class="card-price">Ksh 100+</span>
+              <button class="card-order-btn" onclick="openModal('passion')">Order Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="menu-cta-wrap">
+        <a href="tel:+254720445347" class="btn btn-primary">
+          <i class="fa-solid fa-phone"></i> Call for Full Menu · 0720 445347
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FEATURES ──────────────────────────────────────── -->
+  <section id="features" class="features section" style="background-image:url('Ambience2.jpeg')">
+    <div class="features-bg"></div>
+    <div class="container features-inner">
+      <div class="section-header light">
+        <p class="section-eyebrow">The Experience</p>
+        <h2 class="section-title">More Than Just<br/><em>a Meal</em></h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <h3>Outdoor Seating</h3>
+          <p>Dine al fresco under the open Nairobi sky. Perfect for sunny lunches and breezy evenings.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-champagne-glasses"></i>
+          </div>
+          <h3>Private Dining Room</h3>
+          <p>Host your birthday, corporate event, or family gathering in our exclusive private space.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-tv"></i>
+          </div>
+          <h3>Sport Viewing</h3>
+          <p>Watch live matches on our big screen with your crew, cold drinks in hand.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-regular fa-clock"></i>
+          </div>
+          <h3>Open Daily</h3>
+          <p>We're open every day until 8 PM. Walk in or call ahead. No reservation required.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CAR WASH SERVICES ─────────────────────────────── -->
+  <section id="services" class="carwash section" style="background-image:url('Carwash.jpeg')">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">While You Dine</p>
+        <h2 class="section-title">On-Site Car Wash <em>Services</em></h2>
+        <p class="section-sub">Leave your vehicle with us and enjoy your meal. Our professional team will have it looking brand new by the time you're done eating.</p>
+      </div>
+
+      <div class="cw-grid">
+
+        <div class="cw-card">
+          <div class="cw-icon-wrap">
+            <i class="fa-solid fa-shower"></i>
+          </div>
+          <h3>Full Exterior Wash</h3>
+          <p>A thorough hand wash of the entire body, windows, wheels, and trim using professional-grade products for a spotless finish.</p>
+          <ul class="cw-list">
+            <li><i class="fa-solid fa-check"></i> Body &amp; glass wash</li>
+            <li><i class="fa-solid fa-check"></i> Wheel &amp; tyre clean</li>
+            <li><i class="fa-solid fa-check"></i> Rinse &amp; dry</li>
+          </ul>
+        </div>
+
+        <div class="cw-card cw-featured">
+          <div class="cw-badge">Most Popular</div>
+          <div class="cw-icon-wrap">
+            <i class="fa-solid fa-gears"></i>
+          </div>
+          <h3>Engine Cleaning</h3>
+          <p>Deep degreasing and steam cleaning of the engine bay to remove oil, grime, and build-up — keeping your engine running clean and cool.</p>
+          <ul class="cw-list">
+            <li><i class="fa-solid fa-check"></i> Degreaser application</li>
+            <li><i class="fa-solid fa-check"></i> Steam pressure wash</li>
+            <li><i class="fa-solid fa-check"></i> Engine bay dress</li>
+          </ul>
+        </div>
+
+        <div class="cw-card">
+          <div class="cw-icon-wrap">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
+          <h3>Waxing &amp; Polish</h3>
+          <p>Premium carnauba wax applied by hand to protect your paintwork, enhance gloss, and leave a deep, lasting shine that turns heads.</p>
+          <ul class="cw-list">
+            <li><i class="fa-solid fa-check"></i> Clay bar prep</li>
+            <li><i class="fa-solid fa-check"></i> Premium wax coat</li>
+            <li><i class="fa-solid fa-check"></i> Buff &amp; finish</li>
+          </ul>
+        </div>
+
+        <div class="cw-card">
+          <div class="cw-icon-wrap">
+            <i class="fa-solid fa-couch"></i>
+          </div>
+          <h3>Upholstery Cleaning</h3>
+          <p>Interior vacuum, seat shampoo, and dashboard wipe-down. We clean every surface so the inside is as fresh as the outside.</p>
+          <ul class="cw-list">
+            <li><i class="fa-solid fa-check"></i> Full vacuum</li>
+            <li><i class="fa-solid fa-check"></i> Seat &amp; carpet shampoo</li>
+            <li><i class="fa-solid fa-check"></i> Dashboard &amp; console clean</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="cw-cta-wrap">
+        <div class="cw-cta-text">
+          <i class="fa-solid fa-circle-info"></i>
+          Drop off your car when you arrive. It'll be ready when you finish dining.
+        </div>
+        <a href="tel:+254720445347" class="btn btn-primary">
+          <i class="fa-solid fa-phone"></i> Enquire About Car Wash
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── REVIEWS ───────────────────────────────────────── -->
+  <section id="reviews" class="reviews section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What People Say</p>
+        <h2 class="section-title">Guest <em>Reviews</em></h2>
+        <div class="overall-rating">
+          <span class="big-stars">★★★★☆</span>
+          <span class="big-num">4.0</span>
+          <span class="big-total">/ 842 Google Reviews</span>
+        </div>
+      </div>
+
+      <div class="reviews-track-wrap">
+        <div class="reviews-track" id="reviewsTrack">
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar">J</div>
+              <div>
+                <strong>James M.</strong>
+                <span class="review-stars">★★★★★</span>
+              </div>
+            </div>
+            <p>"The Nyama Choma here is the real deal — smoky, tender, and absolutely delicious. LA-PAZ never disappoints. I bring all my clients here!"</p>
+            <span class="review-date">Google · 2 weeks ago</span>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background:#8B5E3C">A</div>
+              <div>
+                <strong>Amina K.</strong>
+                <span class="review-stars">★★★★☆</span>
+              </div>
+            </div>
+            <p>"Great food, great vibes, and the outdoor seating area is gorgeous. The sugarcane juice is my favourite in all of Nairobi. Will be back!"</p>
+            <span class="review-date">Google · 1 month ago</span>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background:#3C5E8B">D</div>
+              <div>
+                <strong>David O.</strong>
+                <span class="review-stars">★★★★★</span>
+              </div>
+            </div>
+            <p>"Came for the football, stayed for the food. The Chicken Wings are crispy and perfectly seasoned. Staff are very welcoming and attentive."</p>
+            <span class="review-date">Google · 3 weeks ago</span>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background:#5E3C8B">P</div>
+              <div>
+                <strong>Patricia W.</strong>
+                <span class="review-stars">★★★★☆</span>
+              </div>
+            </div>
+            <p>"Hosted my daughter's birthday in the private room — the team was incredibly helpful in arranging everything. Food was served hot and on time!"</p>
+            <span class="review-date">Google · 2 months ago</span>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar" style="background:#8B3C3C">S</div>
+              <div>
+                <strong>Samuel N.</strong>
+                <span class="review-stars">★★★★★</span>
+              </div>
+            </div>
+            <p>"Best value restaurant along Lower Kabete Road. The mbuzi choma was extraordinary — fall-off-the-bone tender. Highly recommend!"</p>
+            <span class="review-date">Google · 1 week ago</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="reviews-nav">
+        <button id="prevReview" aria-label="Previous review">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <div class="reviews-dots" id="reviewsDots"></div>
+        <button id="nextReview" aria-label="Next review">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="reviews-cta">
+        <a href="https://maps.google.com/?q=LA-PAZ+Restaurant+Kabete+Nairobi" target="_blank" class="btn btn-outline">
+          <i class="fa-brands fa-google"></i> Read All 842 Reviews on Google
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── GALLERY ───────────────────────────────────────── -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Visual Story</p>
+        <h2 class="section-title">Inside <em>LA-PAZ</em></h2>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gal-item gal-tall" style="background-image:url('Ambience.jpeg'); background-position: center center;">
+        <div class="gal-overlay"><span>Outdoor Dining</span></div>
+      </div>
+      <div class="gal-item" style="background-image:url('nyamachoma.jpeg')">
+        <div class="gal-overlay"><span>Nyama Choma</span></div>
+      </div>
+      <div class="gal-item" style="background-image:url('platter.jpeg')">
+        <div class="gal-overlay"><span>Chef's Platter</span></div>
+      </div>
+      <div class="gal-item gal-wide" style="background-image:url('kukuchoma.jpeg')">
+        <div class="gal-overlay"><span>Live Grill</span></div>
+      </div>
+      <div class="gal-item" style="background-image:url('bufee.jpeg')">
+        <div class="gal-overlay"><span>Fresh Sides</span></div>
+      </div>
+      <div class="gal-item" style="background-image:url('lapaz1.webp'); background-position: left center;">
+        <div class="gal-overlay"><span>Open Seating</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ───────────────────────────────────────── -->
+  <section id="contact" class="contact section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="section-eyebrow">Get in Touch</p>
+        <h2 class="section-title">Visit <em>Us</em> Today</h2>
+        <ul class="contact-details">
+          <li>
+            <span class="ci-icon"><i class="fa-solid fa-location-dot"></i></span>
+            <div>
+              <strong>Address</strong>
+              <p>Kabete Gardens Apartment, 118 Lower Kabete Rd, Nairobi</p>
+            </div>
+          </li>
+          <li>
+            <span class="ci-icon"><i class="fa-solid fa-phone"></i></span>
+            <div>
+              <strong>Phone</strong>
+              <p><a href="tel:+254720445347">0720 445347</a></p>
+            </div>
+          </li>
+          <li>
+            <span class="ci-icon"><i class="fa-regular fa-clock"></i></span>
+            <div>
+              <strong>Hours</strong>
+              <p>Open daily · Closes at 8:00 PM</p>
+            </div>
+          </li>
+          <li>
+            <span class="ci-icon"><i class="fa-solid fa-star"></i></span>
+            <div>
+              <strong>Rating</strong>
+              <p>4.0 Stars · 842 Google Reviews</p>
+            </div>
+          </li>
+          <li>
+            <span class="ci-icon"><i class="fa-solid fa-car"></i></span>
+            <div>
+              <strong>Car Wash</strong>
+              <p>On-site car wash available while you dine</p>
+            </div>
+          </li>
+        </ul>
+        <div class="map-embed">
+          <iframe src="https://www.google.com/maps?q=LA-PAZ%20Restaurant%20Kabete%20Nairobi&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="LA-PAZ Restaurant location map"></iframe>
+          <p class="branch-note">Also find our Kitisuru branch on <a href="https://maps.app.goo.gl/EcjW3kxPsNGDtMyJ9" target="_blank" rel="noopener noreferrer">Google Maps</a>.</p>
+        </div>
+        <div class="contact-actions">
+          <a href="tel:+254720445347" class="btn btn-primary">
+            <i class="fa-solid fa-phone"></i> Call Now
+          </a>
+          <a href="https://wa.me/254720445347?text=Hi%20LA-PAZ!" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="https://glovoapp.com/en/ke/nairobi/stores/la-paz-restaurant-kitisuru-nbo?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fa-solid fa-bag-shopping"></i> Glovo
+          </a>
+          <a href="https://food.bolt.eu/en/320-nairobi/p/36546-la-paz-restaurant/?utm_source=google_integration" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fa-solid fa-bolt"></i> Bolt Food
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <h3>Send a Message</h3>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Your Name</label>
+              <input type="text" id="fname" name="name" placeholder="John Doe" required/>
+            </div>
+            <div class="form-group">
+              <label for="fphone">Phone / WhatsApp</label>
+              <input type="tel" id="fphone" name="phone" placeholder="0712 345678"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="femail">Email Address</label>
+            <input type="email" id="femail" name="email" placeholder="you@email.com"/>
+          </div>
+          <div class="form-group">
+            <label for="fmsg">Message</label>
+            <textarea id="fmsg" name="message" rows="4" placeholder="Reserve a table, ask about the menu, or plan an event…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+          <div id="formSuccess" class="form-success hidden">
+            <i class="fa-solid fa-circle-check"></i> Message sent! We'll get back to you shortly.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">LA-PAZ</span>
+        <p>Authentic Kenyan cuisine, grills<br/>&amp; on-site car wash services.<br/>Kabete Gardens, Nairobi.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#features">Experience</a>
+        <a href="#services">Car Wash</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4>Connect</h4>
+        <a href="tel:+254720445347">
+          <i class="fa-solid fa-phone"></i> 0720 445347
+        </a>
+        <a href="https://maps.google.com/?q=LA-PAZ+Restaurant+Kabete+Nairobi" target="_blank">
+          <i class="fa-solid fa-map-location-dot"></i> Get Directions
+        </a>
+        <a href="https://maps.google.com/?q=LA-PAZ+Restaurant+Kabete+Nairobi" target="_blank">
+          <i class="fa-brands fa-google"></i> Leave a Review
+        </a>
+        <a href="https://www.instagram.com/lapazrestaurantandcarwash/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-instagram"></i> Follow on Instagram
+        </a>
+      </div>
+      <div class="footer-hours">
+        <h4>Opening Hours</h4>
+        <p>Monday – Sunday</p>
+        <p class="open-tag">
+          <i class="fa-solid fa-circle"></i> Open · Closes 8:00 PM
+        </p>
+        <p class="footer-carwash-note">
+          <i class="fa-solid fa-car"></i> Car wash available on-site
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 LA-PAZ Restaurant. All rights reserved. · Kabete Gardens, Nairobi</p>
+      <p class="designer-credit">Designed by Edward Juma</p>
+    </div>
+  </footer>
+
+  <!-- ─── ORDER MODAL ───────────────────────────────────── -->
+  <div id="orderModal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Order">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- ─── BACK TO TOP ───────────────────────────────────── -->
+  <button id="backToTop" aria-label="Back to top" title="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+  <a href="https://wa.me/254720445347" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
